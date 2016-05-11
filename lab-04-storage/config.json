@@ -5,5 +5,5 @@
     "TWITTER_ACCESS_TOKEN_SECRET" : "EGrnwsO7tR5Ag4KhVjikxRbqpEdv9Ojj46rnna6rwqvdR",
 	"TWITTER_HASHTAGS" : "google",
 	"GCLOUD_PROJECT": "<your-project-id>",
-	"CLOUD_BUCKET": "<your-cloud-bucket>",
+	"CLOUD_BUCKET": "<your-cloud-bucket>"
 }
