@@ -20,6 +20,8 @@ d. Give the new bucket a name
 
 e. Choose a location. The location should fit to your production needs
 
+Note: if you've completed lab 3, and you are using the same machine, skip to step 5.
+
 ### 2. Create an ubuntu based VM
 
 a. Open the Google Cloud Developer Console
@@ -103,7 +105,7 @@ f. Edit the config.json file and change parameters for project id and bucket nam
 
 ``` nano config.json ```
 
-(Edit the appropriate entries, press Ctrl + W to save and Ctrl + X to exit)
+(Edit the appropriate entries, press Ctrl + O and Enter to save and Ctrl + X to exit)
 
 f. Install dependencies
 
