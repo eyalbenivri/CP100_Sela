@@ -18,4 +18,5 @@ j. Click Create
 ### 2. SSH Into Machine, and get the files for this lab
 a. Once the instance is ready (Green Checkmark), click on the "SSH" link that appears at the end of the row.
 b. When the terminal loads, enter the following command:
-```bash git clone https://github.com/eyalbenivri/CP100_Sela.git ./lab-03-compute```
+
+``` bash git clone https://github.com/eyalbenivri/CP100_Sela.git ./lab-03-compute```
