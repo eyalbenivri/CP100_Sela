@@ -1,6 +1,9 @@
 var Twitter = require('twitter');
 var config = require('./config');
-var gcloud = require('gcloud');
+var gcloud = require('gcloud')({
+  projectId: config.get("GCLOUD_PROJECT"),
+  keyFilename: config.get("GCLOUD_AUTH_JSON_FILE")
+});
 
 var storage = gcloud.storage({
   projectId: config.get('GCLOUD_PROJECT')
