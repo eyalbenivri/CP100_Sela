@@ -6,9 +6,9 @@ var storage = gcloud.storage({
   projectId: config.get('GCLOUD_PROJECT')
 });
 
-var bucket = storage.bucket(CLOUD_BUCKET);
-
 var CLOUD_BUCKET = config.get('CLOUD_BUCKET');
+
+var bucket = storage.bucket(CLOUD_BUCKET);
 
 var client = new Twitter({
   consumer_key:         config.get("TWITTER_CONSUMER_KEY"),
