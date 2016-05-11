@@ -53,9 +53,9 @@ b. When the terminal loads, enter the following command:
 
 ### 4. Install nodejs
 
-a. Change directories into the lab-03 folder
+a. Change directories into the lab-04 folder
 
-``` cd CP100_Sela/lab-03-compute ```
+``` cd CP100_Sela/lab-04-compute ```
 
 b. Print a list of the files
 
@@ -77,9 +77,9 @@ e. Make sure Nodejs was installed
 
 ### 5. Review the code, install dependencies, change configurations and Run the code
 
-a. Make sure your current working directory is the lab-03-compute directory
+a. Make sure your current working directory is the lab-04-compute directory
 
-``` cd ~/CP100_Sela/lab-03-compute ```
+``` cd ~/CP100_Sela/lab-04-compute ```
 
 b. Install dependecies for the node application
 
