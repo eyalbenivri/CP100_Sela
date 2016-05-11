@@ -21,12 +21,17 @@ var gcsname = Date.now() + "-tweets.txt";
 var file = bucket.file(gcsname);
 var writestream = file.createWriteStream();
 
+writestream.on("error", function(error) {
+  console.error(error);
+  throw error;
+});
+
 client.stream('statuses/filter', {track: config.get("TWITTER_HASHTAGS")}, function(stream) {
 
-  stream.pipe(writestream);
-
+  var tweetcounter = 0;
   stream.on('data', function(tweet) {
-    console.log("--------- wrote tweet -------------");
+    writestream.write(JSON.stringify(tweet));
+    console.log("--------- wrote " + (++tweetcounter) + " tweet -------------");
   });
 
   stream.on('error', function(error) {
