@@ -19,11 +19,32 @@ j. Click Create
 a. Once the instance is ready (Green Checkmark), click on the "SSH" link that appears at the end of the row.
 b. When the terminal loads, enter the following command:
 ``` git clone https://github.com/eyalbenivri/CP100_Sela.git```
-c. Change directories into the lab-03 folder
+### 3. Install nodejs
+a. Change directories into the lab-03 folder
 ``` cd CP100_Sela/lab-03-compute ```
-d. Print a list of the files
+b. Print a list of the files
 `` ll ``
-e. Review the bash script to install node
+c. Review the bash script to install node
 ``` less install-node.sh ```
-f. Execute (with super user permissions) the install-node.sh file.
-``` sudo ./install-node.sh ```
+(press q to exit)
+d. Execute (with super user permissions) the install-node.sh file.
+``` sudo sh ./install-node.sh ```
+e. Make sure Nodejs was installed
+``` node -v ```
+### Review the code and install dependencies
+a. Make sure your current working directory is the lab-03-compute directory
+``` cd ~/CP100_Sela/lab-03-compute ```
+b. Install dependecies for the node application
+``` npm install ```
+c. Review the code - Main entry point
+``` less index.js ```
+(press q to exit)
+d. Review the code - Configuration parser
+``` less config.js ```
+e. Review the code - Configuraiton object
+``` less config.json ```
+f. Install dependencies
+``` npm install ```
+g. Run the code
+``` node index.js ```
+(Ctrl + C to exit the program)
