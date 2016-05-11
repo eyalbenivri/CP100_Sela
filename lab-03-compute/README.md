@@ -63,7 +63,7 @@ e. Make sure Nodejs was installed
 
 ``` node -v ```
 
-### Review the code and install dependencies
+### 4. Review the code, install dependencies and Run the code
 
 a. Make sure your current working directory is the lab-03-compute directory
 
